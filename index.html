@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NUVION – Smart Multifunctional Shoe Rack</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<nav>
+  <div class="brand"><img src="assets/logo.jpg" alt="">NUVION</div>
+  <div><a href="#demo">Coba simulasi</a><a href="#spek">Spesifikasi</a><a href="#tim">Tim</a></div>
+</nav>
+
+<header class="hero">
+  <div>
+    <h1>NUVION</h1>
+    <p class="sub">Smart Multifunctional Shoe Rack</p>
+    <p class="lead">Rak sepatu multifungsi dengan dudukan ergonomis, ruang penyimpanan tertutup, lampu UV sterilisasi, kipas pengering, dan filter debu. Sepatu selalu bersih, rapi, dan bebas lembap.</p>
+    <a class="btn" href="#demo">Coba simulasi</a><a class="btn ghost" href="#spek">Lihat spesifikasi</a>
+  </div>
+  <div class="gal">
+    <div class="main"><img id="big" src="assets/foto-1.jpg" alt="NUVION tampak serong"></div>
+    <div class="thumbs">
+      <button aria-pressed="true" data-i="0" aria-label="Tampak serong"><img src="assets/foto-1.jpg" alt=""></button>
+      <button aria-pressed="false" data-i="1" aria-label="Tampak samping"><img src="assets/foto-2.jpg" alt=""></button>
+    </div>
+  </div>
+</header>
+
+<section id="demo">
+  <h2>Coba sendiri cara kerjanya</h2>
+  <p class="intro">Ikuti langkah di kanan, atau tekan tombol di bawah gambar untuk menggeser pintu, menyalakan UV, kipas, dan membuka laci.</p>
+  <div class="demo">
+    <div>
+      <div class="stage">
+        <svg viewBox="0 0 440 270" role="img" aria-label="Ilustrasi penampang NUVION">
+          <defs>
+            <clipPath id="cp"><rect x="170" y="112" width="250" height="124" rx="4"/></clipPath>
+            <filter id="gl"><feGaussianBlur stdDeviation="6"/></filter>
+            <pattern id="slat" width="9" height="10" patternUnits="userSpaceOnUse"><rect width="5" height="10" fill="#8a5d2b"/></pattern>
+          </defs>
+          <ellipse cx="220" cy="254" rx="200" ry="9" fill="#000" opacity=".35"/>
+          <g id="cush"><rect x="14" y="52" width="406" height="24" rx="8" fill="#8a4b2e"/><rect x="14" y="52" width="406" height="7" rx="4" fill="#a8603d"/></g>
+          <rect x="22" y="78" width="54" height="158" fill="#e0b273"/>
+          <rect x="30" y="84" width="38" height="146" fill="url(#slat)"/>
+          <rect x="76" y="78" width="344" height="158" rx="4" fill="#e0b273" stroke="#b98445" stroke-width="2"/>
+          <g id="drawer">
+            <rect x="84" y="88" width="76" height="40" rx="3" fill="#d9a867" stroke="#a87636"/><rect x="108" y="104" width="28" height="5" rx="2" fill="#7a5222"/>
+          </g>
+          <rect x="84" y="134" width="76" height="46" rx="3" fill="#d9a867" stroke="#a87636"/><rect x="108" y="154" width="28" height="5" rx="2" fill="#7a5222"/>
+          <rect x="84" y="186" width="76" height="42" rx="3" fill="#d9a867" stroke="#a87636"/><rect x="108" y="204" width="28" height="5" rx="2" fill="#7a5222"/>
+          <rect x="170" y="112" width="250" height="124" rx="4" fill="#2a1d10"/>
+          <rect x="170" y="112" width="250" height="124" rx="4" fill="#1b2d52" opacity=".55"/>
+          <rect x="172" y="172" width="246" height="4" fill="#d9a867"/>
+          <g id="uvg" opacity="0"><rect x="190" y="118" width="170" height="14" fill="#8b6bff" filter="url(#gl)"/><path d="M190 132H360L400 176H150Z" fill="#8b6bff" opacity=".18" transform="translate(40 0)"/></g>
+          <rect id="uvl" x="196" y="116" width="160" height="5" rx="2.5" fill="#cbbcff" opacity=".35"/>
+          <g id="shoes" opacity="0">
+            <path d="M190 170c0-18 6-30 14-30h18c4 12 22 14 36 14 14 0 20 8 20 16z" fill="#e9eef7"/><rect x="190" y="166" width="76" height="5" fill="#4aa3ff"/>
+            <path d="M200 232c0-16 6-26 14-26h16c4 10 20 12 32 12 12 0 18 6 18 14z" fill="#334155"/><rect x="200" y="228" width="70" height="4" fill="#94a3b8"/>
+            <path d="M286 170c0-16 6-26 14-26h14c4 10 18 12 30 12 12 0 16 6 16 14z" fill="#c2410c"/><rect x="286" y="167" width="66" height="4" fill="#fed7aa"/>
+          </g>
+          <rect x="336" y="184" width="76" height="46" rx="3" fill="#10203f" stroke="#4aa3ff" stroke-opacity=".5"/>
+          <g stroke="#4aa3ff" stroke-opacity=".35"><path d="M340 190h68M340 198h68M340 206h68M340 214h68M340 222h68"/></g>
+          <circle cx="372" cy="176" r="0" />
+          <g id="fan"><circle cx="372" cy="176" r="3" fill="#cfe6ff"/><path d="M372 176c-3-12 3-18 8-16 3 5-1 12-8 16zM372 176c12-3 18 3 16 8-5 3-12-1-16-8zM372 176c3 12-3 18-8 16-3-5 1-12 8-16zM372 176c-12 3-18-3-16-8 5-3 12 1 16 8z" fill="#9fd0ff"/></g>
+          <g id="air" class="air" opacity="0" stroke="#9fd0ff" stroke-width="2" fill="none" stroke-linecap="round"><path d="M350 150c-20-6-40 8-70 0"/><path d="M350 140c-20-6-40 8-70 0"/></g>
+          <g id="door"><g clip-path="url(#cp)"><rect id="glass" x="170" y="112" width="250" height="124" fill="#bfe3ff" opacity=".2"/><rect x="170" y="112" width="250" height="124" fill="none" stroke="#e6f3ff" stroke-opacity=".7" stroke-width="3"/><path d="M200 112l-40 124M240 112l-40 124" stroke="#fff" stroke-opacity=".25" stroke-width="10"/></g></g>
+          <rect x="22" y="236" width="400" height="10" fill="#b98445"/>
+          <text id="cap" x="220" y="30" text-anchor="middle" fill="#9fb3d6" font-size="14" font-family="Poppins,sans-serif"></text>
+        </svg>
+      </div>
+      <div class="toggles" id="tg">
+        <button data-k="door" aria-pressed="false">Pintu acrylic</button>
+        <button data-k="uv" aria-pressed="false">Lampu UV</button>
+        <button data-k="fan" aria-pressed="false">Kipas</button>
+        <button data-k="drawer" aria-pressed="false">Laci</button>
+        <button data-k="sit" aria-pressed="false">Duduk</button>
+      </div>
+    </div>
+    <div>
+      <ol class="steps" id="steps"></ol>
+      <div class="nav2"><button class="btn ghost" id="prev" style="margin:0">Sebelumnya</button><button class="btn" id="next">Langkah berikutnya</button></div>
+    </div>
+  </div>
+</section>
+
+<section id="spek">
+  <h2>Spesifikasi produk</h2>
+  <p class="intro">Ketuk kartu untuk melihat fungsinya.</p>
+  <div class="grid" id="specs"></div>
+</section>
+
+<section>
+  <h2>Keunggulan</h2>
+  <div class="chips" style="margin-top:16px"><span class="chip">Multifungsi</span><span class="chip">Modern</span><span class="chip">Ergonomis</span><span class="chip">Hemat ruang</span><span class="chip">Higienis</span><span class="chip">Mudah dibersihkan</span></div>
+</section>
+
+<section id="tim">
+  <h2>Dirancang oleh</h2>
+  <div class="team" style="margin-top:18px">
+    <div class="person"><div class="av">F</div><div>Felix<small>545230023</small></div></div>
+    <div class="person"><div class="av">A</div><div>Andre Ahmad Ahsantu Dzonni<small>545230030</small></div></div>
+    <div class="person"><div class="av">R</div><div>Ronald Lino Dasmando Purba<small>545230043</small></div></div>
+    <div class="person"><div class="av">M</div><div>Muhammad Farrel Vivaldy<small>545230044</small></div></div>
+  </div>
+  <h2 style="margin-top:40px;font-size:24px">Di bawah bimbingan</h2>
+  <div class="mentors">
+    <div>Bapak Ahmad, S.T., M.T., IPM<span>Koordinator PPTSI II</span></div>
+    <div>Ibu Lithrone Laricha Salomon, S.T., M.T.<span>Dosen pembimbing gambar kerja</span></div>
+    <div>Bapak Dr. Ir. Wilson Kosasih, M.T., IPM, ASEAN Eng.<span>Dosen pembimbing desain manufaktur</span></div>
+    <div>Ibu Dr. Maitri Widya Mutiara, S.Ds., M.M. &amp; Bapak Adianto, M.Sc.<span>Dosen pembimbing prototype</span></div>
+    <div>Bapak Dr. I Wayan Sukania, S.T., M.T., IPM.<span>Dosen pembimbing studi waktu &amp; gerakan</span></div>
+  </div>
+</section>
+</div>
+<footer>NUVION – Smart Multifunctional Shoe Rack · PPTSI II</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
